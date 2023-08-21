@@ -1,0 +1,155 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-162-595
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-162-595
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2023 11:51:00] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2023 11:51:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ernes\\Desktop\\Restas\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2023-08-21 11:55:00,376 - WARNING -  * Debugger is active!
+2023-08-21 11:55:00,379 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 11:55:05,901 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 11:55:05,901 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 11:55:05,903 - INFO -  * Restarting with stat
+2023-08-21 11:55:06,128 - WARNING -  * Debugger is active!
+2023-08-21 11:55:06,132 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 11:57:54,497 - INFO -  * Detected change in 'c:\\Users\\ernes\\Desktop\\Restas\\app.py', reloading
+2023-08-21 11:57:54,520 - INFO -  * Restarting with stat
+2023-08-21 11:57:54,749 - WARNING -  * Debugger is active!
+2023-08-21 11:57:54,752 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 11:59:29,960 - INFO -  * Detected change in 'c:\\Users\\ernes\\Desktop\\Restas\\app.py', reloading
+2023-08-21 11:59:29,983 - INFO -  * Restarting with stat
+2023-08-21 11:59:30,211 - WARNING -  * Debugger is active!
+2023-08-21 11:59:30,214 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 12:00:26,154 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 12:00:26,154 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 12:00:26,156 - INFO -  * Restarting with stat
+2023-08-21 12:00:26,377 - WARNING -  * Debugger is active!
+2023-08-21 12:00:26,380 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 12:01:57,487 - INFO - 127.0.0.1 - - [21/Aug/2023 12:01:57] "[33mGET / HTTP/1.1[0m" 404 -
+2023-08-21 14:20:04,713 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 14:20:04,713 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 14:20:04,716 - INFO -  * Restarting with stat
+2023-08-21 14:20:04,942 - WARNING -  * Debugger is active!
+2023-08-21 14:20:04,946 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 14:20:16,583 - INFO - 127.0.0.1 - - [21/Aug/2023 14:20:16] "[31m[1mGET /tasks HTTP/1.1[0m" 405 -
+2023-08-21 14:20:16,633 - INFO - 127.0.0.1 - - [21/Aug/2023 14:20:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-21 14:24:09,480 - INFO -  * Detected change in 'c:\\Users\\ernes\\Desktop\\Restas\\app.py', reloading
+2023-08-21 14:24:09,520 - INFO -  * Restarting with stat
+2023-08-21 14:24:09,778 - WARNING -  * Debugger is active!
+2023-08-21 14:24:09,781 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 14:24:58,895 - INFO -  * Detected change in 'c:\\Users\\ernes\\Desktop\\Restas\\app.py', reloading
+2023-08-21 14:24:58,922 - INFO -  * Restarting with stat
+2023-08-21 14:24:59,163 - WARNING -  * Debugger is active!
+2023-08-21 14:24:59,166 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 14:25:02,063 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 14:25:02,064 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 14:25:02,066 - INFO -  * Restarting with stat
+2023-08-21 14:25:02,298 - WARNING -  * Debugger is active!
+2023-08-21 14:25:02,301 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 14:25:16,008 - INFO - 127.0.0.1 - - [21/Aug/2023 14:25:16] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 15:26:04,941 - INFO - 127.0.0.1 - - [21/Aug/2023 15:26:04] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 15:26:09,830 - INFO - New task created: {'id': 'e8fc61be-5ab4-41ed-963f-94d16f971838', 'title': 'f', 'done': False}
+2023-08-21 15:26:09,831 - INFO - 127.0.0.1 - - [21/Aug/2023 15:26:09] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 15:26:13,188 - INFO - New task created: {'id': 'e9fd46df-44a2-4be7-99c8-865d7ac9fb74', 'title': 'w', 'done': False}
+2023-08-21 15:26:13,188 - INFO - 127.0.0.1 - - [21/Aug/2023 15:26:13] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 15:39:23,846 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 15:39:23,846 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 15:39:23,848 - INFO -  * Restarting with stat
+2023-08-21 15:39:24,077 - WARNING -  * Debugger is active!
+2023-08-21 15:39:24,080 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 15:39:28,189 - INFO - 127.0.0.1 - - [21/Aug/2023 15:39:28] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 15:39:30,822 - INFO - New task created: {'id': '7fe3629f-615e-4d25-82a4-158d5c9fa23e', 'title': 's', 'done': False}
+2023-08-21 15:39:30,822 - INFO - 127.0.0.1 - - [21/Aug/2023 15:39:30] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 15:39:32,490 - INFO - New task created: {'id': '9f72aa26-7d69-4800-b89c-79f08f4c6a78', 'title': 'asda', 'done': False}
+2023-08-21 15:39:32,490 - INFO - 127.0.0.1 - - [21/Aug/2023 15:39:32] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 15:39:33,736 - INFO - New task created: {'id': 'b7c1ee7e-bf25-4b5f-bca6-5cf85106f3be', 'title': 'wq', 'done': False}
+2023-08-21 15:39:33,736 - INFO - 127.0.0.1 - - [21/Aug/2023 15:39:33] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 15:41:12,141 - INFO - New task created: {'id': '45243191-d1ad-41e0-b3fa-9e9de6d780c0', 'title': 'aa', 'done': False}
+2023-08-21 15:41:12,141 - INFO - 127.0.0.1 - - [21/Aug/2023 15:41:12] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 15:55:36,466 - INFO - 127.0.0.1 - - [21/Aug/2023 15:55:36] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:20:07,437 - INFO -  * Detected change in 'c:\\Users\\ernes\\Desktop\\Restas\\app.py', reloading
+2023-08-21 16:20:07,473 - INFO -  * Restarting with stat
+2023-08-21 16:20:07,721 - WARNING -  * Debugger is active!
+2023-08-21 16:20:07,725 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 16:21:47,843 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 16:21:47,844 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 16:21:47,845 - INFO -  * Restarting with stat
+2023-08-21 16:21:48,076 - WARNING -  * Debugger is active!
+2023-08-21 16:21:48,080 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 16:21:53,445 - INFO - 127.0.0.1 - - [21/Aug/2023 16:21:53] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:21:57,916 - INFO - New task created: {'id': 'e04f454f-b4a2-4257-a32b-80e9529f754c', 'title': 'a', 'done': False}
+2023-08-21 16:21:57,916 - INFO - 127.0.0.1 - - [21/Aug/2023 16:21:57] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:22:00,247 - INFO - New task created: {'id': 'c8fb044e-37a7-4b28-9be4-11fa50cc0343', 'title': 'a', 'done': False}
+2023-08-21 16:22:00,248 - INFO - 127.0.0.1 - - [21/Aug/2023 16:22:00] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:22:26,772 - INFO - New task created: {'id': '4f052da9-2e6f-4bbd-b3a0-4eb99385779d', 'title': 'dasas', 'done': False}
+2023-08-21 16:22:26,772 - INFO - 127.0.0.1 - - [21/Aug/2023 16:22:26] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:22:45,046 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 16:22:45,046 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 16:22:45,047 - INFO -  * Restarting with stat
+2023-08-21 16:22:45,274 - WARNING -  * Debugger is active!
+2023-08-21 16:22:45,278 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 16:22:49,106 - INFO - New task created: {'id': '49577d44-8854-4624-a773-3d3bf1a7e4a4', 'title': 'a', 'done': False}
+2023-08-21 16:22:49,106 - INFO - 127.0.0.1 - - [21/Aug/2023 16:22:49] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:22:50,921 - INFO - New task created: {'id': 'dee314b3-dd8e-4c8e-830f-498147df2eba', 'title': 'das', 'done': False}
+2023-08-21 16:22:50,921 - INFO - 127.0.0.1 - - [21/Aug/2023 16:22:50] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:23:38,399 - INFO -  * Detected change in 'c:\\Users\\ernes\\Desktop\\Restas\\app.py', reloading
+2023-08-21 16:23:38,422 - INFO -  * Restarting with stat
+2023-08-21 16:23:38,655 - WARNING -  * Debugger is active!
+2023-08-21 16:23:38,659 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 16:23:40,529 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 16:23:40,529 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 16:23:40,530 - INFO -  * Restarting with stat
+2023-08-21 16:23:40,750 - WARNING -  * Debugger is active!
+2023-08-21 16:23:40,754 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 16:23:46,355 - INFO - 127.0.0.1 - - [21/Aug/2023 16:23:46] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:23:48,460 - INFO - New task created: {'id': '3972f9b7-9a2d-49ed-afdb-c34450dbec09', 'title': 'a', 'done': False}
+2023-08-21 16:23:48,460 - INFO - 127.0.0.1 - - [21/Aug/2023 16:23:48] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:23:50,149 - INFO - New task created: {'id': '6a50a0fd-a0ed-4701-b23b-eed3ce53596c', 'title': 'asda', 'done': False}
+2023-08-21 16:23:50,149 - INFO - 127.0.0.1 - - [21/Aug/2023 16:23:50] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:23:52,687 - INFO - New task created: {'id': '94c9c72f-54f4-47da-a174-82cf22e3bfa3', 'title': 'a', 'done': False}
+2023-08-21 16:23:52,687 - INFO - 127.0.0.1 - - [21/Aug/2023 16:23:52] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:24:14,062 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2023-08-21 16:24:14,062 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-21 16:24:14,064 - INFO -  * Restarting with stat
+2023-08-21 16:24:14,302 - WARNING -  * Debugger is active!
+2023-08-21 16:24:14,306 - INFO -  * Debugger PIN: 127-162-595
+2023-08-21 16:24:15,368 - INFO - 127.0.0.1 - - [21/Aug/2023 16:24:15] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:24:17,581 - INFO - 127.0.0.1 - - [21/Aug/2023 16:24:17] "[33mGET / HTTP/1.1[0m" 404 -
+2023-08-21 16:24:20,686 - INFO - 127.0.0.1 - - [21/Aug/2023 16:24:20] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:24:22,206 - INFO - New task created: {'id': '10f1f8f4-7aee-425a-8587-95a233f174b8', 'title': 'dsa', 'done': False}
+2023-08-21 16:24:22,206 - INFO - 127.0.0.1 - - [21/Aug/2023 16:24:22] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:25:21,353 - INFO - 127.0.0.1 - - [21/Aug/2023 16:25:21] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:25:21,388 - INFO - 127.0.0.1 - - [21/Aug/2023 16:25:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-21 16:25:21,608 - INFO - 127.0.0.1 - - [21/Aug/2023 16:25:21] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:25:21,767 - INFO - 127.0.0.1 - - [21/Aug/2023 16:25:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-21 16:25:23,047 - INFO - 127.0.0.1 - - [21/Aug/2023 16:25:23] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:25:23,076 - INFO - 127.0.0.1 - - [21/Aug/2023 16:25:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-21 16:26:16,924 - INFO - Task deleted: {'id': '10f1f8f4-7aee-425a-8587-95a233f174b8', 'title': 'dsa', 'done': False}
+2023-08-21 16:26:16,924 - INFO - 127.0.0.1 - - [21/Aug/2023 16:26:16] "DELETE /tasks/10f1f8f4-7aee-425a-8587-95a233f174b8 HTTP/1.1" 200 -
+2023-08-21 16:26:17,245 - INFO - 127.0.0.1 - - [21/Aug/2023 16:26:17] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:26:19,400 - INFO - New task created: {'id': '4ebf4610-73f6-4922-986c-de8a80258418', 'title': 'sda', 'done': False}
+2023-08-21 16:26:19,400 - INFO - 127.0.0.1 - - [21/Aug/2023 16:26:19] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:26:20,616 - INFO - New task created: {'id': '4e749adc-2aee-43b4-97e6-6c0cc9c593cb', 'title': 'dsa', 'done': False}
+2023-08-21 16:26:20,616 - INFO - 127.0.0.1 - - [21/Aug/2023 16:26:20] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:26:22,241 - INFO - New task created: {'id': '7ee7ea9f-2a44-4cb1-b0e6-581a7a1b27ac', 'title': 'dd', 'done': False}
+2023-08-21 16:26:22,241 - INFO - 127.0.0.1 - - [21/Aug/2023 16:26:22] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2023-08-21 16:26:24,202 - INFO - 127.0.0.1 - - [21/Aug/2023 16:26:24] "GET /view_tasks HTTP/1.1" 200 -
+2023-08-21 16:26:24,511 - INFO - 127.0.0.1 - - [21/Aug/2023 16:26:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
