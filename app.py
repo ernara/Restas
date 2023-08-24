@@ -23,6 +23,19 @@ def create_item():
     data.append(new_item)
     return jsonify(new_item), 201
 
+@app.route('/api/items/<int:item_id>', methods=['PUT'])
+def update_item(item_id):
+    item = next((item for item in data if item["id"] == item_id), None)
+    if item is None:
+        return jsonify({"error": "Item not found"}), 404
+    
+    new_name = request.json.get("name")
+    if new_name:
+        item["name"] = new_name
+        return jsonify(item)
+    
+    return jsonify({"error": "Name field is required"}), 400
+
 @app.route('/api/items/<int:item_id>', methods=['DELETE'])
 def delete_item(item_id):
     global data

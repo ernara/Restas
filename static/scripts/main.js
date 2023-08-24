@@ -1,6 +1,17 @@
 $(document).ready(function() {
-    // Load items on page load
-    loadItems();
+    // Load items using AJAX
+    function loadItems() {
+        $.get("/api/items", function(data) {
+            $("#items-list").empty();
+            data.forEach(function(item) {
+                var listItem = `<li>${item.name} 
+                    <button class="update-button" data-id="${item.id}">Update</button>
+                    <button class="delete-button" data-id="${item.id}">Delete</button>
+                </li>`;
+                $("#items-list").append(listItem);
+            });
+        });
+    }
 
     // Add item button click event
     $("#add-button").click(function() {
@@ -19,6 +30,23 @@ $(document).ready(function() {
         }
     });
 
+     // Update item event using event delegation
+     $("#items-list").on("click", ".update-button", function() {
+        var itemId = $(this).data("id");
+        var newName = prompt("Enter new item name:");
+        if (newName !== null) {
+            $.ajax({
+                url: "/api/items/" + itemId,
+                type: "PUT",
+                contentType: "application/json",
+                data: JSON.stringify({ "name": newName }),
+                success: function() {
+                    loadItems();
+                }
+            });
+        }
+    });
+
     // Delete item event using event delegation
     $("#items-list").on("click", ".delete-button", function() {
         var itemId = $(this).data("id");
@@ -31,14 +59,6 @@ $(document).ready(function() {
         });
     });
 
-    // Load items using AJAX
-    function loadItems() {
-        $.get("/api/items", function(data) {
-            $("#items-list").empty();
-            data.forEach(function(item) {
-                var listItem = `<li>${item.name} <button class="delete-button" data-id="${item.id}">Delete</button></li>`;
-                $("#items-list").append(listItem);
-            });
-        });
-    }
+    // Load items on page load
+    loadItems();
 });
