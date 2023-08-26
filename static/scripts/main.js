@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // Load items using AJAX
     function loadItems() {
         $.get("/api/items", function(data) {
             $("#items-list").empty();
@@ -13,7 +12,6 @@ $(document).ready(function() {
         });
     }
 
-    // Add item button click event
     $("#add-button").click(function() {
         var itemName = $("#item-name").val();
         if (itemName !== "") {
@@ -30,7 +28,6 @@ $(document).ready(function() {
         }
     });
 
-     // Update item event using event delegation
      $("#items-list").on("click", ".update-button", function() {
         var itemId = $(this).data("id");
         var newName = prompt("Enter new item name:");
@@ -47,7 +44,6 @@ $(document).ready(function() {
         }
     });
 
-    // Delete item event using event delegation
     $("#items-list").on("click", ".delete-button", function() {
         var itemId = $(this).data("id");
         $.ajax({
@@ -59,6 +55,9 @@ $(document).ready(function() {
         });
     });
 
-    // Load items on page load
+    $(document).ready(function() {
+        getItemsFromDb();
+    });
+
     loadItems();
 });
