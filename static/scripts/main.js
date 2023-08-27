@@ -1,18 +1,22 @@
 $(document).ready(function() {
     function loadItems() {
-        $.get("/api/items", function(data) {
+        $.get("/api/items/fromdb", function(data) {
             $("#items-list").empty();
             data.forEach(function(item) {
-                var listItem = `<li>${item.name} 
-                    <button class="update-button" data-id="${item.id}">Update</button>
-                    <button class="delete-button" data-id="${item.id}">Delete</button>
-                </li>`;
+                var listItem = createListItem(item);
                 $("#items-list").append(listItem);
             });
         });
     }
 
-    $("#add-button").click(function() {
+    function createListItem(item) {
+        return `<li>${item.name} 
+            <button class="update-button" data-id="${item.id}">Update</button>
+            <button class="delete-button" data-id="${item.id}">Delete</button>
+        </li>`;
+    }
+
+    function addItem() {
         var itemName = $("#item-name").val();
         if (itemName !== "") {
             $.ajax({
@@ -26,14 +30,13 @@ $(document).ready(function() {
                 }
             });
         }
-    });
+    }
 
-     $("#items-list").on("click", ".update-button", function() {
-        var itemId = $(this).data("id");
+    function updateItem(itemId) {
         var newName = prompt("Enter new item name:");
         if (newName !== null) {
             $.ajax({
-                url: "/api/items/" + itemId,
+                url: "/api/items/fromdb/" + itemId,
                 type: "PUT",
                 contentType: "application/json",
                 data: JSON.stringify({ "name": newName }),
@@ -42,21 +45,30 @@ $(document).ready(function() {
                 }
             });
         }
-    });
+    }
 
-    $("#items-list").on("click", ".delete-button", function() {
-        var itemId = $(this).data("id");
+    function deleteItem(itemId) {
         $.ajax({
-            url: "/api/items/" + itemId,
+            url: "/api/items/fromdb/" + itemId,
             type: "DELETE",
             success: function() {
                 loadItems();
             }
         });
+    }
+
+    $("#add-button").click(function() {
+        addItem();
     });
 
-    $(document).ready(function() {
-        getItemsFromDb();
+    $("#items-list").on("click", ".update-button", function() {
+        var itemId = $(this).data("id");
+        updateItem(itemId);
+    });
+
+    $("#items-list").on("click", ".delete-button", function() {
+        var itemId = $(this).data("id");
+        deleteItem(itemId);
     });
 
     loadItems();
