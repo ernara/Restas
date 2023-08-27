@@ -6,3 +6,4 @@ class Item(db.Model):
 
     def serialize(self):
         return {"id": self.id, "name": self.name}
+

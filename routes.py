@@ -1,11 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-from app import app, db
+from app import app, db, oauth
 from models import Item
-
-data = [
-    {"id": 1, "name": "Item 1"},
-    {"id": 2, "name": "Item 2"},
-]
+from flask_oauthlib.provider import OAuth2Provider
 
 @app.route('/')
 def index():
@@ -67,3 +63,13 @@ def update_item_in_db(item_id):
         return jsonify(item)
 
     return jsonify({"error": "Name field is required"}), 400
+
+@app.route('/oauth/authorize', methods=['GET', 'POST'])
+@oauth.authorize_handler
+def authorize():
+    return True
+
+@app.route('/oauth/token', methods=['POST'])
+@oauth.token_handler
+def access_token():
+    return None
